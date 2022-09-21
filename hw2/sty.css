@@ -1,0 +1,51 @@
+*{
+    background-color: black;
+}
+
+body{
+    background-color: black;
+}
+
+h2{
+    font-weight: normal;
+}
+
+.panel{
+    width: 100%;
+    height:30vh;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+#p1{
+    background-color: black;
+
+}
+#p2{
+    background-color:black;
+}
+#p3{
+    background-color:black;
+}
+
+.left{
+    float: left;
+    width: 50%;
+    color:white;
+    display: flex;
+    justify-content: center;   
+
+}
+
+.right{
+    float: right;
+    width: 50%;
+    color:white;
+    display: flex;
+    justify-content: center;
+}
+
+#contain{
+    margin: 5%;
+}
