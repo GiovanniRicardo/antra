@@ -16,17 +16,14 @@ h2{
     padding: 2%;
     display: flex;
     justify-content: center;
+    border-bottom: 5px solid grey;
 }
 
 #p1{
     background-color: black;
+    border: 2px;
+    border-color: gray;
 
-}
-#p2{
-    background-color:black;
-}
-#p3{
-    background-color:black;
 }
 
 .left{
@@ -49,3 +46,4 @@ h2{
 #contain{
     margin: 5%;
 }
+
