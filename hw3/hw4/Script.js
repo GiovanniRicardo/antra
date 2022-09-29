@@ -15,7 +15,7 @@ select.options[select.options.length] = new Option(state[index]);
 
 Object.keys(state).forEach(key => {  //populate property names 
 
-var select = document.getElementById("two");
+const select = document.getElementById("two");
 select.options[select.options.length] = new Option(key);
 
 })
