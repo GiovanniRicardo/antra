@@ -27,25 +27,7 @@ Array.from(new Set(data.map(x => x.region))).forEach(x => {
 
  })
 
- function mysticalAnimal(type, collects, canFly){
-    this.type = type;
-    this.collects = collects;
-    this.canFly = canFly;
-}
 
-for(let i = 0; i < 3; i++){
-
-    if(i=0){
-        console.log("i = 0")
-    }
-    else if(i > 0){
-        console.log("i > 0")
-    }
-    else{
-        console.log('else');
-    }
-
-}
  result.forEach(userObj => {
     userObj.model = 'sum';
     userObj.region= '';
